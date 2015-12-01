@@ -66,7 +66,7 @@ final class ArcanistESLintLinter extends ArcanistExternalLinter {
         }
 
         if ($this->eslintconfig) {
-            $options[] = '--config '.$this->eslintconfig;
+            $options[] = '--config='.$this->eslintconfig;
         }
 
         return $options;
