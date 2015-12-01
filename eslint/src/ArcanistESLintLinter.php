@@ -69,10 +69,6 @@ final class ArcanistESLintLinter extends ArcanistExternalLinter {
             $options[] = '--config '.$this->eslintconfig;
         }
 
-        print_r('\n-------------***********\n');
-        print_r($this->eslintconfig);
-        print_r('\n-------------***********\n');
-        print_r($options);
         return $options;
     }
 
